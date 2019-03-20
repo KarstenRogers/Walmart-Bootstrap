@@ -2,7 +2,15 @@
   width: 24px;
 }
 
-.navbar-right {
+.navbar-header {
+  display: flex;
+}
+
+.navbar-default {
+  background-color: rgb(8, 28, 58);
+}
+
+.navbar-right li {
   color: #fff;
   width: 43px;
   height: 43px;
@@ -11,6 +19,10 @@
   display: block;
   padding: 0;
   line-height: 43px;
+}
+
+.navbar-right i {
+  color: white;
 }
 
 .left-content {
@@ -23,4 +35,28 @@
   font-size: 44px;
   margin-top: 133px;
   font-family: 'Roboto', sans-serif;
+}
+
+.fa-shopping-cart:hover:before {
+  content: "Cart";
+  font-family: Arial;
+  font-size: 12px;
+}
+
+.fa-user:hover:before {
+  content: "Account";
+  font-family: Arial;
+  font-size: 12px;
+}
+
+.fa-map-marker:hover:before {
+  content: "Stores";
+  font-family: Arial;
+  font-size: 12px;
+}
+
+.fa-cutlery:hover:before {
+  content: "Grocery";
+  font-family: Arial;
+  font-size: 12px;
 }
