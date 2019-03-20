@@ -4,16 +4,18 @@
 
 .navbar-header {
   display: flex;
+  background-color: rgb(8, 28, 58);
 }
 
 .navbar-default {
-  background-color: rgb(8, 28, 58);
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .navbar-right li {
   color: #fff;
-  width: 43px;
-  height: 43px;
+  width: 48px;
+  height: 45px;
   background: rgb(8, 28, 58);
   border-radius: 50%;
   display: block;
@@ -40,25 +42,25 @@
 .fa-shopping-cart:hover:before {
   content: "Cart";
   font-family: Arial;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .fa-user:hover:before {
   content: "Account";
   font-family: Arial;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .fa-map-marker:hover:before {
   content: "Stores";
   font-family: Arial;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .fa-cutlery:hover:before {
   content: "Grocery";
   font-family: Arial;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .icon-center {
@@ -244,4 +246,11 @@
   margin-left: 10px;
   display: flex;
   justify-content: center;
+}
+
+@media (min-width: 768px) {
+.navbar-right {
+    float: right!important;
+    margin-right: 0px;
+  }
 }
