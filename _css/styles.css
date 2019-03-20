@@ -258,3 +258,30 @@
     margin-right: 0px;
   }
 }
+
+@media only screen and (max-width:1151px) {
+  .windex {
+    display: grid;
+  }
+  
+  .blue-box {
+    margin-top: -4px;
+    width: auto;
+    display: flow-root;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width:876px) {
+  .search-box {
+    width: auto;
+  }
+
+  .columns {
+    column-count: 2;
+  }
+
+  .no-show {
+    display: none;
+  }
+}
