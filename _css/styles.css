@@ -5,6 +5,9 @@
 .navbar-header {
   display: flex;
   background-color: rgb(8, 28, 58);
+  width: 80px;
+  height: 40px;
+  justify-content: space-evenly;
 }
 
 .navbar-default {
