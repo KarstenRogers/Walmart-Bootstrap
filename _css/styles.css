@@ -183,6 +183,7 @@
 .shop {
   margin-top: 100px;
   margin-left: 100px;
+  margin-bottom: 50px;
 }
 
 .fa-plus {
@@ -192,6 +193,30 @@
 }
 
 .col-md-2 img {
-  width: 105px;
-  height: 95px;
+  width: 225px;
+  height: 200px;
+}
+
+.row {
+  display: flex;
+  text-align: center;
+}
+
+.row p {
+  text-align: center;
+}
+
+.white-box {
+  background-color: white;
+  display: inline-block;
+  margin-top: -53px;
+  height: 120px;
+  border-bottom: 4px solid rgb(149, 172, 228);
+  padding: 30px;
+  text-align: center;
+}
+
+.three-sellers img {
+  width: 100%;
+  height: auto;
 }
