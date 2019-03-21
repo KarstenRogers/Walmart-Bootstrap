@@ -258,6 +258,24 @@
   margin-top: 50px;
 }
 
+.col-sm-4 img {
+  width: 225px;
+  height: 200px;
+}
+
+.col-sm-6 img {
+  width: 225px;
+  height: 200px;
+}
+
+div.col-sm-7.five-three {
+  width: 60% !important;
+  }
+
+  div.col-sm-5.five-two {
+    width: 40% !important;
+  }
+
 
 @media (min-width: 768px) {
 .navbar-right {
@@ -316,11 +334,4 @@
   .icon-center {
     width: 100%;
   }
-
-
-.carousel {
-  width: auto;
-  text-align: center;
-  float: right!important;
-}
 }
