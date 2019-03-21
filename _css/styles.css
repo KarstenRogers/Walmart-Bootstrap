@@ -258,6 +258,7 @@
   margin-top: 50px;
 }
 
+
 @media (min-width: 768px) {
 .navbar-right {
     float: right!important;
@@ -315,4 +316,11 @@
   .icon-center {
     width: 100%;
   }
+
+
+.carousel {
+  width: auto;
+  text-align: center;
+  float: right!important;
+}
 }
