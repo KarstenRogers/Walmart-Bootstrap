@@ -281,8 +281,9 @@
   justify-content: end;
 }
 
-.three-sellers {
-
+.shopping-exp img {
+  width: 225px;
+  height: 200px;
 }
 
 @media (min-width: 768px) {
@@ -302,10 +303,6 @@
 @media only screen and (max-width:1151px) {
   .windex {
     display: grid;
-    margin-top: -4px;
-    width: auto;
-    display: flow-root;
-    text-align: center;
   }
   
   .blue-box {
