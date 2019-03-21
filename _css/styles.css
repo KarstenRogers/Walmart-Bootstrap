@@ -298,3 +298,21 @@
     display: none;
   }
 }
+
+@media only screen and (max-width:991px) {
+  .supercenter {
+    display: grid;
+  }
+
+  .icon-truck {
+    margin-top: 50px;
+  }
+
+  .icon-star {
+    margin-top: 50px;
+  }
+
+  .icon-center {
+    width: 100%;
+  }
+}
