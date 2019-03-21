@@ -1,3 +1,7 @@
+.mt-50 {
+  margin-top: 50px;
+}
+
 .navbar-header img {
   width: 24px;
 }
@@ -273,6 +277,14 @@
   height: 200px;
 }
 
+.cats {
+  justify-content: end;
+}
+
+.three-sellers {
+
+}
+
 @media (min-width: 768px) {
 .navbar-right {
     float: right!important;
@@ -330,26 +342,13 @@
   .icon-center {
     width: 100%;
   }
-}
 
-@media screen and (max-width: 1125px) {
-  .items {
-    column-count: 2
-  }
-}
-
-@media (max-width: 520px) {
-  .items {
-    column-count: 1;
+  .three-sellers img {
+    width: 53%;
+    height: auto;
   }
 
-  .columns {
-    column-count: 1;
-  }
-
-  .experience {
-    column-count: 2;
-    display: block;
-    text-align: center;
+  .three-sellers {
+    text-align: -webkit-center;
   }
 }
