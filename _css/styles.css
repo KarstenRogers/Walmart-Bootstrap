@@ -239,30 +239,6 @@
   height: auto;
 }
 
-.blue-box {
-  background-color: rgb(0, 91, 140);
-  color: white;
-  padding-top: 100px;
-  padding-left: 17px;
-  margin-right: 5px;
-  height: auto;
-}
-
-.blue-box h1 {
-  font-size: 36px;
-}
-
-.blue-box p {
-  font-size: 20px;
-}
-
-.windex {
-  margin-top: 50px;
-  margin-left: 10px;
-  display: flex;
-  justify-content: center;
-}
-
 .col-md-3 img {
   width: 220px;
   height: 200px;
