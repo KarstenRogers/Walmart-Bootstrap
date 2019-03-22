@@ -1,6 +1,12 @@
 .mt-50 {
   margin-top: 50px;
 }
+.mt-100 {
+  margin-top: 100px;
+}
+.mt-75 {
+  margin-top: 75px;
+}
 .mt-15 {
   margin-top: 15px;
 }
@@ -350,5 +356,17 @@
 
   .three-sellers {
     text-align: -webkit-center;
+  }
+}
+
+@media only screen and (max-width:1370px) {
+  .spring-right {
+
+  }
+}
+
+@media only screen and (max-width:1199px) {
+  .spring-left {
+    text-align: center;
   }
 }
