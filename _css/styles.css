@@ -318,9 +318,15 @@
   display: flex;
 }
 
-.footer-title {
-
+.footer-img{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
+
+
 @media (min-width: 768px) {
 .navbar-right {
     float: right!important;
