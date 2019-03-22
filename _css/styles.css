@@ -326,7 +326,10 @@
   flex-wrap: wrap;
 }
 
-
+.wnh {
+  height: auto;
+  width: 100%;
+}
 @media (min-width: 768px) {
 .navbar-right {
     float: right!important;
